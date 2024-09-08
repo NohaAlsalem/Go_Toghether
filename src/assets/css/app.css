@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.head {
+    margin-bottom: 20px;
+    color:  #F97316;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.myfont{
+    color: #1B3358;
+    margin-bottom: 40px;
+    font-size: 10px;
+}
+
+.forme {
+    margin-bottom: 10px;
+    padding-left: 25;
+    padding-right: 25;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid #ddd;
+    width: 300px;
+    padding: 10px;
+    /* border:1px solid #30353F; */
+
+}
+.Button {
+    background-color: #F97316;
+    margin-bottom: 10px;
+    padding-left: 25;
+    padding-right: 25;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid #ddd;
+    width: 350px;
+    padding: 10px;
+    /* border:1px solid #30353F; */
+
+}
+
+.formee{
+    position:absolute;
+    margin: 25px;;
+    padding-left: 25;
+    padding-right: 25;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+    left: 0%;
+    /* border:1px solid #30353F; */
+
+}
+
+
+
+.tophome{
+    position: absolute;
+    top:25%;
+    /* width: 1980px;;
+    height: 250px; */
+    /* border-radius:50px ; */
+    /* background-color: #1B3358; */
+    cursor:pointer;
+    object-fit: cover;
+    /* padding: 10px; */
+    background: #FFFAFA;
+    border-radius: 10px;
+    height: 250px;
+    background-repeat: repeat;
+}
+.contain{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    top: 50%;
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    background-color:#FFFAFA;
+    /* background-color:#FFFAFA; */
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.contain1{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    background-color:#FFFAFA;
+    /* background-color:#FFFAFA; */
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.contain2{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 65%;
+    width: 150px;
+    height: 150px;
+    background-color:#FFFAFA;
+    /* background-color:#FFFAFA; */
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.search{
+    /* padding-top: 5px; */
+    padding-left: 10px;
+    /* margin-top: 20px; */
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    /* top: 15%;
+    left: 50%; */
+    width: 200px;
+    height: 40px;
+    /* background-color:#F1916D; */
+    /* background-color:#FFFAFA; */
+    /* transform: translate(-50%, -50%); */
+    font-size: 15px;
+}
+.button{
+    /* padding-left: 10px; */
+    margin-top: 20px;
+    border-radius: 10px;
+    top: 25%;
+    left: 60%;
+    width: 60px;
+    height: 40px;
+    background-color: #F97316;
+    /* background-color:#FFFAFA; */
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+}
+.wrapper{
+  /* margin-top: 10px; */
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding : 25px;
+    top: 70%;
+    /* left: 68%; */
+    height: 200px;
+    
+/* border: 1px solid #ddd; */
+    display: flex;
+    overflow-x: auto;
+    background-color: #1B3358;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0px;
+}
+.item{
+    min-width: 150px;
+     height: 150px;
+     border-radius: 10px;
+     line-height: 150px;
+     text-align: center;
+     border: 1px solid #ddd;
+     overflow: hidden;
+     background-color: #1B3358;
+    /* background-color: white; */
+     margin-right: 20px;
+     /* font-size: 20px */
+ }
+.wrapper .item{
+   min-width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    line-height: 300px;
+    text-align:bottom;
+    border: 1px solid #ddd;
+    /* overflow: hidden; */
+   background-color: white;
+    /* margin-right: 20px; */
+}
+.wrapper .control{
+ 
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius:50px ;
+    background-color:  #F97316;
+    cursor:pointer;
+    object-fit: cover;
+    padding: 10px;
+}
+.wrapper .next{
+    right:0;
+   margin-right: 25px;
+    margin-top: 30px;
+    /* transform: translate(50%,-50%); */
+}
