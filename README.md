@@ -1,6 +1,7 @@
-# toproject2
+# Go_Toghether
 
-A new Flutter project.
+Note: Each branch represents a role in the project (client, driver, admin && office)
+master represents web App (admin, office)
 
 ## Getting Started
 
