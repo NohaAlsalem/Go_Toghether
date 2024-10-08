@@ -1,7 +1,7 @@
 # driverapp
 
 A new Flutter project.
-
+Note: Each branch represents a role in the project (client, driver, admin && office) master represents web App (admin, office)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
