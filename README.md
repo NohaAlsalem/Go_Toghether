@@ -1,6 +1,7 @@
-# admin_pannal
+# web_app
 
-## Project setup
+## Vue Project
+Note: Each branch represents a role in the project (client, driver, admin && office) master represents web App (admin, office)
 ```
 npm install
 ```
